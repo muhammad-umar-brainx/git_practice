@@ -1,7 +1,5 @@
-puts "hello brainX, #{ARGV.first}!"
-puts "git is awsome"
-puts "git commit"
-
+# Default is World
+# Author: Jim Weirich (jim@somewhere.com)
 name = ARGV.first || "World"
 
 puts "Hello, #{name}!"
